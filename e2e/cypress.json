@@ -1,0 +1,16 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "projectId": "sandbox",
+  "screenshotsFolder": "cypress/reports/screenshots",
+  "videosFolder": "cypress/reports/videos",
+  "watchForFileChanges": true,
+  "experimentalStudio": true,
+  "reporter": "mocha-teamcity-reporter",
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  },
+  "env": {
+    "authenticationUrl": "/auth/login"
+  }
+}

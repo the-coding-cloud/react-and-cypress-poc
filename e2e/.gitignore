@@ -1,0 +1,7 @@
+.idea/*
+!.idea/runConfigurations
+!.idea/jsLinters
+
+/node_modules/
+/target/
+/cypress/reports/
